@@ -1,0 +1,32 @@
+{
+  "days": [
+    { "key": "s", "value": "Segunda" },
+    { "key": "t", "value": "Terça" },
+    { "key": "q", "value": "Quarta" },
+    { "key": "i", "value": "Quinta" },
+    { "key": "x", "value": "Sexta" }
+  ],
+  "hours": [
+    { "key": "07", "value": "07:00" },
+    { "key": "08", "value": "08:00" },
+    { "key": "10", "value": "10:00" },
+    { "key": "14", "value": "14:00" },
+    { "key": "16", "value": "16:00" },
+    { "key": "20", "value": "20:00" }
+  ],
+  "goingToPay": [
+    { "key": "proj-tcc", "value": "Projeto de Conclusão de Curso", "obrigatory": true },
+    { "key": "proj1", "value": "Projeto de Computação I", "obrigatory": true },
+    { "key": "proj2", "value": "Projeto de Computação II", "obrigatory": true , "pre":"proj1"},
+    { "key": "tcc", "value": "Trabalho Conclusão de Curso", "obrigatory": true, "pre":"proj-tcc" },    
+    { "key": "prog-concorrente", "value": "Programação Concorrente", "obrigatory": true },
+    { "key": "linear", "value": "Algebra Linear", "obrigatory": true },
+    { "key": "metodologia", "value": "Metodologia Ciêntifica", "obrigatory": true },
+    { "key": "atal", "value": "Análise e Técnicas de Algoritmos", "obrigatory": true},
+    { "key": "governanca", "value": "Governança da Internet", "obrigatory": false },
+    { "key": "bd2", "value": "Banco de Dados II", "obrigatory": false },
+    { "key": "msn", "value": "Métodos e Software Numéricos", "obrigatory": false },
+    { "key": "v&v-testes", "value": "Verificação e Validação de Software", "obrigatory": false },
+    { "key": "sistemas-distribuidos", "value": "Sistemas Distribuídos", "obrigatory": false }
+  ]
+}

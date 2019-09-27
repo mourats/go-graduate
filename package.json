@@ -1,0 +1,11 @@
+{
+  "name": "go-graduate",
+  "version": "1.0.0",
+  "description": "Project to find the best horary",
+  "main": "index.js",
+  "author": "mourats",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security"
+  }
+}
