@@ -7,12 +7,12 @@
     { "key": "x", "value": "Sexta" }
   ],
   "hours": [
-    { "key": "07", "value": "07:00" },
-    { "key": "08", "value": "08:00" },
-    { "key": "10", "value": "10:00" },
-    { "key": "14", "value": "14:00" },
-    { "key": "16", "value": "16:00" },
-    { "key": "20", "value": "20:00" }
+    { "key": "07", "value": "07:00-08:00" },
+    { "key": "08", "value": "08:00-10:00" },
+    { "key": "10", "value": "10:00-12:00" },
+    { "key": "14", "value": "14:00-16:00" },
+    { "key": "16", "value": "16:00-18:00" },
+    { "key": "18", "value": "18:00-20:00" }
   ],
   "goingToPay": [
     { "key": "proj-tcc", "value": "Projeto de Conclusão de Curso", "obrigatory": true },
